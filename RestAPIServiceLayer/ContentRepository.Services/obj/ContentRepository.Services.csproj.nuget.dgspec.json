@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Services\\ContentRepository.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Entities\\ContentRepository.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Entities\\ContentRepository.Entities.csproj",
+        "projectName": "ContentRepository.Entities",
+        "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Entities\\ContentRepository.Entities.csproj",
+        "packagesPath": "C:\\Users\\santosh.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\santosh.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Infrastructure\\ContentRepository.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Infrastructure\\ContentRepository.Infrastructure.csproj",
+        "projectName": "ContentRepository.Infrastructure",
+        "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Infrastructure\\ContentRepository.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\santosh.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\santosh.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Entities\\ContentRepository.Entities.csproj": {
+                "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Entities\\ContentRepository.Entities.csproj"
+              },
+              "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Services\\ContentRepository.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Services\\ContentRepository.Services.csproj",
+        "projectName": "ContentRepository.Services",
+        "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Services\\ContentRepository.Services.csproj",
+        "packagesPath": "C:\\Users\\santosh.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\santosh.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Infrastructure\\ContentRepository.Infrastructure.csproj": {
+                "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\ContentRepository.Infrastructure\\ContentRepository.Infrastructure.csproj"
+              },
+              "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj",
+        "projectName": "Framework",
+        "projectPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\Framework.csproj",
+        "packagesPath": "C:\\Users\\santosh.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Santosh\\Personal\\RND\\GitHub\\src\\C-Sharp\\RestAPIServiceLayer\\Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\santosh.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
